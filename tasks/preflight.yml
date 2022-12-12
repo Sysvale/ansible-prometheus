@@ -108,7 +108,6 @@
       with_items: "{{ __prometheus_checksums }}"
       when:
         - "('linux-' + go_arch + '.tar.gz') in item"
-  delegate_to: localhost
   when:
     - prometheus_binary_local_dir | length == 0
     - not prometheus_skip_install
