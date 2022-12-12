@@ -4,9 +4,9 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: buster
+  - name: focal
     pre_build_image: true
-    image: quay.io/paulfantom/molecule-systemd:debian-10
+    image: quay.io/paulfantom/molecule-systemd:ubuntu-20.04
     docker_host: "${DOCKER_HOST:-unix://var/run/docker.sock}"
     privileged: true
     volumes:
