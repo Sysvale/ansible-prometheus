@@ -1,20 +1,16 @@
 ---
 galaxy_info:
-  author: cloudalchemy
+  author: sysvale
   role_name: prometheus
-  description: Prometheus monitoring system configuration and management
+  description: Prometheus monitoring system configuration and management based on https://github.com/cloudalchemy/ansible-prometheus.
   license: MIT
-  company: none
+  company: Sysvale Softgroup
   min_ansible_version: 2.7
   platforms:
     - name: Ubuntu
       versions:
         - bionic
         - xenial
-    - name: Debian
-      versions:
-        - stretch
-        - buster
     - name: EL
       versions:
         - 7
