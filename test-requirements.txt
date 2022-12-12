@@ -4,7 +4,7 @@ molecule==3.5.2
 molecule-docker<2.0
 docker
 ansible-lint<3.6
-testinfra>=1.7.0
+pytest-testinfra
 jmespath
 selinux
 passlib
