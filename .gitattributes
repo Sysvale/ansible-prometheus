@@ -1,0 +1,11 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+molecule export-ignore
+ansible.cfg export-ignore
+.editorconfig export-ignore
+test* export-ignore
+*.sh export-ignore
+*lint export-ignore
+.circleci export-ignore
+.github export-ignore
+.mergify.yml export-ignore
