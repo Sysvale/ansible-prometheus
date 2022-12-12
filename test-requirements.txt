@@ -1,7 +1,7 @@
 # temporarily lock versions of molecule and ansible-compat to avoid a bug:
 ansible-compat==0.5.0
 molecule==3.5.2
-molecule-docker
+molecule-docker<2.0
 docker
 ansible-lint<3.6
 testinfra>=1.7.0
@@ -10,3 +10,4 @@ selinux
 passlib
 ansible<4.11
 ansible-core<2.12
+PyYAML<6,>=5.1
